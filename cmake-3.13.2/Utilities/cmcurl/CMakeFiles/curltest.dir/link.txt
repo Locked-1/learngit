@@ -1,0 +1,1 @@
+/usr/bin/gcc   -w  -rdynamic CMakeFiles/curltest.dir/curltest.c.o  -o curltest lib/libcmcurl.a -ldl ../cmzlib/libcmzlib.a 

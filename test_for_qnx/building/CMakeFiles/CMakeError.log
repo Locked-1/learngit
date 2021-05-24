@@ -1,0 +1,19 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_ARMV8a failed with the following output:
+Change Dir: /home/wuyulong/test_for_qnx/building/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b95a5/fast && /usr/bin/make  -f CMakeFiles/cmTC_b95a5.dir/build.make CMakeFiles/cmTC_b95a5.dir/build
+make[1]: Entering directory '/home/wuyulong/test_for_qnx/building/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b95a5.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_ARMV8a  -std=c++11 -O3 -Wall    -march=armv8-a -o CMakeFiles/cmTC_b95a5.dir/src.cxx.o -c /home/wuyulong/test_for_qnx/building/CMakeFiles/CMakeTmp/src.cxx
+/home/wuyulong/test_for_qnx/building/CMakeFiles/CMakeTmp/src.cxx:1:0: error: bad value (armv8-a) for -march= switch
+ int main() { return 0; }
+ ^
+CMakeFiles/cmTC_b95a5.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_b95a5.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b95a5.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/wuyulong/test_for_qnx/building/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_b95a5/fast' failed
+make: *** [cmTC_b95a5/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

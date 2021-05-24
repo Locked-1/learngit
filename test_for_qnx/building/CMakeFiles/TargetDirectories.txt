@@ -1,0 +1,3 @@
+/home/wuyulong/test_for_qnx/building/CMakeFiles/rebuild_cache.dir
+/home/wuyulong/test_for_qnx/building/CMakeFiles/sample.dir
+/home/wuyulong/test_for_qnx/building/CMakeFiles/edit_cache.dir

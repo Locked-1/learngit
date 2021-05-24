@@ -1,0 +1,2 @@
+/home/wuyulong/cmake-3.13.2/Source/Checks/Curses-build/CMakeFiles/rebuild_cache.dir
+/home/wuyulong/cmake-3.13.2/Source/Checks/Curses-build/CMakeFiles/edit_cache.dir
